@@ -24,6 +24,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Sanity Check: Load Model
+      - name: Sanity Check Load Model
         run: |
-          python -c "import joblib; joblib.load('model.pkl'); print('Model loaded successfully.')"
+          python -c 'import joblib; joblib.load("model.pkl"); print("Model loaded successfully.")'
