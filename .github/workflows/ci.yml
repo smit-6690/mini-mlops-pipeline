@@ -26,4 +26,4 @@ jobs:
 
       - name: Sanity Check: Load Model
         run: |
-          python -c "import joblib; joblib.load('model.pkl'); print('✅ Model Loaded')"
+          python -c "import joblib; joblib.load('model.pkl'); print('Model loaded successfully.')"
